@@ -1,0 +1,18 @@
+.p-col{
+    padding: 20px 0px;
+    color: white;
+}
+.p-col1{
+    padding: 10px 0px;
+    color: white;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-sky{
+    background-color: skyblue;
+}
+.row{
+    border: 1px solid black;
+    margin: 10px 0px;
+}

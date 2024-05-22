@@ -1,0 +1,15 @@
+body{
+    background-color: cornflowerblue;
+    background-image: url(../../HTML/Images/bg1.jpg);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+}
+p{
+    color: rgb(105, 7, 7);
+}
+h2{
+    background-color:brown;
+    color:white;
+}

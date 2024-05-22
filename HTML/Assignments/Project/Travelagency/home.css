@@ -1,0 +1,40 @@
+body{
+    background-color: white;
+    margin: 0px;
+}
+.nav-sec{
+    width: 100%;
+    margin: auto;
+}
+.nav-div{
+    width: 80%;
+    margin: auto;
+    /* margin-top: 30px; */
+}
+.nav-div1{
+    width: 30%;
+    float: left;
+}
+.nav-div2{
+    width: 70%;
+    float: left;
+    text-align: right;
+    margin-top: 25px;
+}
+.nav-logo{
+    width: 50%;
+    height: 35%;
+}
+ul li{ 
+    display: inline;   
+}
+a{
+    color: rgb(83, 82, 82);
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 20px;
+}
+a:hover{
+    color: rgb(222, 160, 59);
+}

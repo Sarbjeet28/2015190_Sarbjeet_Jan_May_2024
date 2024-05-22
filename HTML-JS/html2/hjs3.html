@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul class="ul-list"></ul>
+    
+</body>
+<script>
+    // create element
+    let div= document.createElement('div')
+    console.log(div);
+
+    // first method to set classname and id, (not much use)
+    div.className = "main";
+    div.id = "test";
+
+    // second method to set sttributes such as classname, id; mostly prefered
+    div.setAttribute("class","test")
+    div.style.backgroundColor = "blue"        //apply css on div element
+
+    // first method to add text
+    // div.innerText="hello world"
+
+    // second method to add text, using appendchild
+    let addtext = document.createTextNode('hello')
+    div.appendChild(addtext)
+    // document.body.appendChild(div)              //show text on screen , add text in document body
+
+    // first method- append child in list ,using function
+    function addlist(language){
+        let li= document.createElement('li')
+        li.innerHTML=`${language}`
+
+        document.querySelector('.ul-list').
+        appendChild(li)
+    }
+    addlist("HTML")
+    addlist("CSS")
+
+    // second method- append child
+    function addlistContent(lang){
+        let li = document.createElement('li')
+        li.appendChild(document.createTextNode(lang))
+        document.querySelector('.ul-list').appendChild(li)
+
+        // apply css style property on li element
+        li.style.color="red"
+        li.style.padding="10px"
+        
+    }
+    addlistContent("JAVASCRIPT")
+    addlistContent("PYTHON")
+    addlistContent("REACT JS")
+
+    // edit li element
+    const selectnode = document.querySelector('li:nth-child(1)')
+    let newli = document.createElement('li')
+    newli.textContent = "Demo"
+    selectnode.replaceWith(newli)
+
+    // remove li element
+    const selectnode2 = document.querySelector('li:nth-child(2)');
+    selectnode2.remove()
+
+</script>
+</html>

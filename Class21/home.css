@@ -1,0 +1,271 @@
+.s1{
+    width: 80%;
+    margin: auto;
+}
+.s1-div1{
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+}
+.s1-div2{
+    width: 70%;
+    float: left;
+    text-align: right;
+    margin-top: 30px;
+}
+ul li{ 
+    display: inline;   
+}
+a{
+    color: rgb(118, 114, 114);
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 20px;
+}
+.hh1{
+    background-color: rgb(232, 37, 66);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+a:hover{
+    color: rgb(232, 37, 66);
+}
+.home{
+    Position: relative;
+    display: inline-block;
+}
+.dropdown-home{
+    color: rgb(118, 114, 114);
+    width: 210px;
+    text-align: left;
+    line-height: 25px;
+    border: 1px solid rgb(135, 136, 136);
+    display: none;
+    position: absolute;
+    margin-top: 20px;
+    padding: 5px;
+}
+/* .dropdown-link:hover{
+    color: rgb(118, 114, 114);
+} */
+.home:hover .dropdown-home{
+    display: block;
+}
+.s1-head{
+    font-family: sans-serif;
+    color: rgb(232, 37, 66);
+}
+.heading1{
+    font-family: sans-serif;
+    color: rgb(48, 47, 47);
+    letter-spacing: 2px;   
+}
+.div1{
+    width: 60%;
+    float: left;
+    margin-top: 70px;
+    margin-bottom: 200px;
+}
+.div2{
+    width: 40%;
+    float: left;
+    margin-top: 70px;
+    margin-bottom: 200px;
+}
+.heading{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgb(48, 47, 47);
+    margin-bottom: 2px;
+}
+.p1{
+    font-family: sans-serif;
+    color: rgb(48, 47, 47);
+    /* text-align: left; */
+    line-height: 25px;
+}
+.img1{
+    height: 350px;
+    width: 450px;
+    display: block;
+    margin-left: 50px;
+}
+.hh1{
+    background-color: rgb(255, 48, 114);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    width: 25%;
+    padding: 15px;
+}
+.div3{
+    width: 40%;
+    float: left;
+    margin-bottom: 170px;
+}
+.div4{
+    width: 60%;
+    float: left;
+    margin-bottom: 170px;
+}
+.img2{
+    height: 450px;
+    width: 400px;
+    display: block;
+}
+.h1{
+    font-family: sans-serif;
+    color: rgb(255, 48, 114);
+    font-size: 25px;
+}
+.h2{
+    font-family: sans-serif;
+    color: rgb(48, 47, 47);
+    font-size: 30px;
+}
+.div5{
+    width: 50%;
+    float: left;
+    margin-bottom: 100px;
+}
+.div6{
+    width: 50%;
+    float: left;
+    margin-bottom: 100px;
+}
+.img3{
+    height: 470px;
+    width: 450px;
+    display: block;
+}
+.div7{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.h3{
+    font-family: sans-serif;
+    color: rgb(48, 47, 47);
+    font-size: 30px;
+    margin-top: 0px;
+}
+.img-container{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.img4{
+    width: 400px;
+    height: 200px;
+}
+.div8{
+    text-align: center;
+    margin-top: 70px;
+
+}
+.div9{
+    width: 35%;
+    float: left;
+    border: 10px solid rgb(255, 48, 114);
+    margin-top: 80px;
+    /* padding: 35px; */
+    text-align: center;
+    margin-bottom: 50px;
+}
+.div10{
+    width: 35%;
+    float: left;
+    border: 10px solid rgb(255, 48, 114);
+    margin-left: 220px;
+    margin-top: 80px;
+    /* padding: 35px; */
+    text-align: center;
+    margin-bottom: 50px;
+}
+.h-test{
+    font-family: sans-serif;
+    background-color: rgb(48, 47, 47);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 5px;
+    /* margin-left: 0px;
+    margin-right: 0px; */
+}
+span{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    /* font-size: 15px; */
+    padding: 5px;
+}
+.p2{
+    font-family: sans-serif;
+    color: rgb(48, 47, 47);
+    text-align: center;
+    line-height: 25px;
+}
+.footer-jd{
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+}
+.footer-d1{
+    width: 33.3%;
+    float: left;
+    background-color: black;  
+}
+.footer-d2{
+    width: 33.3%;
+    float: left;
+}
+.footer-d3{
+    width: 33.3%;
+    float: left;
+}
+.footer-box{
+    width: 400px;
+    height: 250px;
+    border: 3px solid;
+    margin: 20px;
+    padding: 20px;
+}
+.footer-box2{
+    border: 3px solid white;
+    margin: 20px;
+    padding: 20px;
+}
+.heading-footer{
+    font-family: sans-serif;
+    color: rgb(255, 252, 252);
+    letter-spacing: 2px;  
+}
+.footer-text{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+}
+address{
+    line-height: 30px;
+    font-family: sans-serif;
+    color: rgb(48, 47, 47);
+}
+.list li{
+    display: block;
+    line-height: 30px;
+}
+/* .list li a:hover{
+    background-color: rgb(232, 37, 66);
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    width: 25%;
+    padding: 5px;
+} */
+body{
+    margin: 0px;
+}
+.clear{
+    clear: both;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Water Gun Game</title>
+</head>
+<body>
+    <div id="output"></div>
+
+    <script>
+        function playGame() {
+            const choices = ['S', 'W', 'G'];
+            const userChoice = prompt("Enter S, W, or G").toUpperCase();
+            const computerChoice = choices[Math.floor(Math.random() * choices.length)];
+            const outputDiv = document.getElementById('output');
+
+            if (!choices.includes(userChoice)) {
+                outputDiv.innerText = "Invalid choice. Please enter S, W, or G.";
+                return;
+            }
+
+            outputDiv.innerText = `User: ${userChoice}\nComputer: ${computerChoice}`;
+
+            let resultMessage = "";
+            if (userChoice === computerChoice) {
+                resultMessage = "Tie";
+            } else if (
+                (userChoice === 'S' && computerChoice === 'W') ||
+                (userChoice === 'W' && computerChoice === 'G') ||
+                (userChoice === 'G' && computerChoice === 'S')
+            ) {
+                resultMessage = "User";
+            } else {
+                resultMessage = "Computer";
+            }
+
+            outputDiv.innerText += `\nThe Winner is: ${resultMessage}`;
+        }
+
+        playGame();
+    </script>
+</body>
+</html>

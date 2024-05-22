@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <button id="start" style="border: 2px solid red; padding: 10px;">START</button>
+    <button id="stop" style="border: 2px solid rgb(79, 27, 168); padding: 10px;">STOP</button>
+    
+</body>
+<script>
+        let interval;
+        // let colors= ['#7186f2', '#e282f2', '#25b2e9', '#86d63c', '#b25003', '#3a13a9','#0000ff'];
+        // let index= 0;
+        // document.getElementById('start').addEventListener('click', function() {
+        //         interval = setInterval(function() {
+        //         // console.log('Interval start', Date.now());
+        //         document.body.style.backgroundColor= colors[index];
+        //         if (index < colors.length - 1){
+        //                 index++;
+        //         } 
+        //         else {
+        //                 index = 0;
+        //         } 
+        //     }, 1000);
+            
+        // });
+
+        // document.getElementById('stop').addEventListener('click', function() {
+        //     clearInterval(interval);
+        //     // console.log('Interval stopped');
+        // });
+
+        function getRandomColor() {
+            let letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        document.getElementById('start').addEventListener('click', function() {
+                interval = setInterval(function() {
+                    document.body.style.backgroundColor = getRandomColor();
+                }, 1000);
+            
+        });
+
+        document.getElementById('stop').addEventListener('click', function() {
+            clearInterval(interval);
+            interval= null;          //next time start with starting point, no overlap of values
+        });
+
+       
+
+
+    
+</script>
+</html>

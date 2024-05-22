@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hacker Simulation</title>
+  <style>
+    body {
+      background-color: black;
+      color: limegreen;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <p id="text"></p>
+  </div>
+
+  <script>
+    let text = document.getElementById('text');
+    let messages = [
+      'Initializing Hack tool...',
+      'Connecting to Facebook...',
+      'Connecting to server 1...',
+      'Connection failed. Retrying...',
+      'Connecting to server 2',
+      'Connected Successfully...',
+      'Username iamharry...',
+      '200K passwords tried...',
+      'Match not found Another 200K passwords tried...',
+      'Match not found...',
+      'Another 200K passwords tried...',
+      'Match found...',
+      'Accessing Account...',
+      'Hack Successful...'
+    ];
+
+    function printMessage(msg) {
+      text.innerHTML += `${msg}<br>`;
+    }
+
+    function simulateHacking() {
+      for (let i = 0; i < messages.length; i++) {
+        setTimeout(() => {
+          printMessage(messages[i]);
+        }, i * 2000);
+      }
+    }
+    simulateHacking();
+
+  </script>
+</body>
+</html>

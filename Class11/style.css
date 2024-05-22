@@ -1,0 +1,39 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    font-family: 'Grape Nuts', cursive;
+    background-color: rgb(218, 207, 207);
+    width: 40%;
+    color: darkblue;
+    font-size: 40px;
+    text-align: center;
+    border: 4px double red;
+    padding: 10px;
+}
+a:link{
+    background-color: rgb(218, 207, 207);
+    color: darkblue;
+    font-size: 40px;
+    text-decoration: none;
+}
+/* a:visited{
+    color: rgb(226, 47, 217);
+}   */
+a:hover{
+    color: rgb(248, 83, 32);
+    text-decoration: underline;
+  }
+a:active{
+    color: cadetblue;
+}
+@font-face{
+    src: url("fonts/RubikBurned-Regular.ttf");
+    font-family: Sarb;
+  }
+.s1{
+    font-family: sarb;
+    font-size: 40px;
+    background-color: lightgreen;
+    color: green;
+  }

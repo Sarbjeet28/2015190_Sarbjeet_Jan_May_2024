@@ -1,0 +1,106 @@
+.body{
+    margin: 0 ;
+}
+.sec1{
+    width: 80%;
+    margin: auto;
+
+}
+.box1{
+    width: 50%;
+    float: left;
+    background-color: rgb(238, 207, 34);
+    height: 100px;
+}
+.box2{
+    width: 50%;
+    float: left;
+    background-color: rgb(248, 115, 226);
+    height: 100px;
+}
+.box3{
+    width: 100%;
+    float: left;
+    background-color: rgb(22, 43, 236);
+    height: 100px;
+}
+.box4{
+    width: 33.3%;
+    float: left;
+    background-color: rgb(238, 207, 34);
+    height: 100px;
+}
+.box5{
+    width: 33.3%;
+    float: left;
+    background-color: green;
+    height: 100px;
+}
+.box6{
+    width: 33.3%;
+    float: left;
+    background-color: orange;
+    height: 100px;
+}
+
+@media screen and (min-width:0px) and (max-width:576px){
+    .sec1{
+        width: 100%;
+    }
+    .box1{
+        background-color: rgb(238, 58, 34);  
+    }
+    .box2{
+        background-color: rgb(167, 33, 201);
+        
+    }
+    .box3{
+        background-color: rgb(204, 14, 157);  
+    }
+    .box4{
+        width: 100%;
+        background-color: rgb(238, 209, 47);
+    }
+    .box5{
+        width: 100%;
+        background-color: green;
+    }
+    .box6{
+        width: 100%;
+        background-color: rgb(55, 0, 255);
+    }
+}
+
+/* @media screen and (min-width: 0px) and (max-width: 576px){
+
+.sec1{
+    width: 100%;
+
+}
+.box1{
+    background-color: rgb(238, 58, 34);
+    
+}
+.box2{
+    background-color: rgb(167, 33, 201);
+    
+}
+.box3{
+    background-color: rgb(204, 14, 157);  
+}
+.box4{
+    width: 100%;
+    background-color: rgb(238, 209, 47);
+}
+.box5{
+    width: 100%;
+    background-color: green;
+}
+.box6{
+    width: 100%;
+    background-color: rgb(55, 0, 255);
+}
+} */
+.clear{
+    clear: both;
+}

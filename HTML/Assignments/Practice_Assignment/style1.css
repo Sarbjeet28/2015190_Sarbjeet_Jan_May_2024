@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+}
+.s1{
+    width: 100%;
+    margin: auto;
+    background-color: lightgray;
+    text-align: center;
+}
+.d1{
+    width: 50%;
+    float: left;
+}
+.d2{
+    width: 50%;
+    float: left;  
+}
+.s2{
+    background-color: rgb(47, 46, 46);
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    padding: 20px;
+}
+.s3{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.heading{
+    margin-top: 50px;
+}
+.a1{
+    width: 25%;
+    float: left;
+    margin-top: 70px;
+}
+.i1{
+    width: 100px;
+    height: 100px; 
+    /* background-color: black; */
+    display: block;
+    border-radius: 50%;
+    margin: auto;
+    
+}
+.a2{
+    width: 25%;
+    float: left;
+    margin-top: 70px;
+}
+.a3{
+    width: 25%;
+    float: left;
+    margin-top: 70px;
+}
+.a4{
+    width: 25%;
+    float: left;
+    margin-top: 70px;
+}
+.s4{
+    width: 90%;
+    margin: auto;
+}
+.b1{
+    width: 40%;
+    float: left;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.b2{
+    width: 50%;
+    float: left;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+}
+.img1{
+    height: 300px;
+    width: 400px;
+    display: block;
+    margin-left: 50px;
+}
+.hh1{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 25%;
+    padding: 3px;
+}
+.clear{
+    clear: both;
+}

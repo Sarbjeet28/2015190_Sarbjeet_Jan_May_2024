@@ -1,0 +1,15 @@
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-orange{
+    background-color: rgb(199, 98, 20);
+}
+.bg-pink{
+    background-color: pink;
+}
+.bg-blue{
+    background-color: blue;
+}
+.p-col{
+    padding: 60px 0px;
+}

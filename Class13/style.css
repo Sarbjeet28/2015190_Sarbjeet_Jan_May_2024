@@ -1,0 +1,89 @@
+.s1{
+    width: 80%;
+    margin: auto;
+}
+.div1{
+    width: 60%;
+    float: left;
+    margin-top: 30px;
+}
+.div2{
+    width: 40%;
+    float: left;
+    margin-top: 30px;
+}
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgb(48, 47, 47);
+    text-align: left;
+    font-weight: 900;
+    margin-bottom: 2px;
+}
+.p1{
+    font-family: sans-serif;
+    color: rgb(48, 47, 47);
+    text-align: left;
+    line-height: 25px;
+}
+.img1{
+    height: 250px;
+    width: 400px;
+    display: block;
+    margin-left: 50px;
+}
+.div3{
+    text-align: center;
+    margin-top: 80px;
+}
+.div4{
+    text-align: center;
+    margin-top: 50px;
+}
+.div5{
+    text-align: center;
+    margin-top: 80px;
+}
+.heading{
+    font-family: sans-serif;
+    color: rgb(48, 47, 47);
+    font-weight: 800;
+    margin-bottom: 0px;   
+}
+.heading1{
+    font-family: sans-serif;
+    color: rgb(48, 47, 47);
+    letter-spacing: 2px;   
+}
+span{
+    font-family: sans-serif;
+    color: rgb(232, 37, 66);
+}
+.p2{
+    font-family: sans-serif;
+    color: rgb(48, 47, 47);
+    line-height: 25px;
+    padding: 5px;
+}
+.d1{
+    width: 33.3%;
+    float: left;
+    /* text-align: left; */
+    margin-top: 70px;
+
+}
+.d2{
+    width: 33.3%;
+    float: left;
+    /* text-align: left; */
+    margin-top: 70px; 
+}
+.d3{
+    width: 33.3%;
+    float: left;
+    /* text-align: left; */
+    margin-top: 70px;
+}
+.clear{
+    clear: both;
+}

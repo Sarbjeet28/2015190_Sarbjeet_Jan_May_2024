@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <label for="num1" style="padding: 10px;">1st Number:</label>
+    <input type="number" id="num1" placeholder="Enter first number" style="padding: 5px; margin: 10px;">
+    <br>
+    <label for="num2" style="padding: 10px;">2nd Number:</label>
+    <input type="number" id="num2" placeholder="Enter second number" style="padding: 5px; margin: 10px;">
+    <br>
+    <button id="mul_btn" style="padding: 5px; margin: 10px; background-color: cornflowerblue;">Multiply</button>
+    <button id="div_btn" style="padding: 5px; margin: 10px; background-color: cornflowerblue;">Divide</button>
+    <br>
+    <div id="result"></div>
+
+    <script>
+        document.getElementById("mul_btn").addEventListener("click", function() {
+            calculate("multiply");
+        });
+
+        document.getElementById("div_btn").addEventListener("click", function() {
+            calculate("divide");
+        });
+
+        function calculate(operation) {
+            // Get input values
+            let num1 = parseFloat(document.getElementById("num1").value);
+            let num2 = parseFloat(document.getElementById("num2").value);
+
+            // Check if the input is valid (not NaN and second number not zero for division)
+            if (!isNaN(num1) && !isNaN(num2) && (operation === "divide" ? num2 !== 0 : true)) {
+                let result = operation === "multiply" ? num1 * num2 : num1 / num2;
+ 
+                // Display the result
+                document.getElementById("result").textContent = `The result is: ${result}`;
+            }else {
+                // Display an error message if input is not valid
+                document.getElementById("result").textContent = "Invalid input or division by zero.";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.bg-red{
+    background-color: red;
+    color: white;
+}
+.bg-blue{
+    background-color: rgb(81, 81, 225);
+    color: white;
+}
+.t-align{
+    text-align: center;
+}
+
+

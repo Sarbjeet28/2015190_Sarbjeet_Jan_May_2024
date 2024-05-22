@@ -1,0 +1,35 @@
+.content-box1{
+    padding: 20px 0px;
+}
+.content-box2{
+    padding: 20px 0px;
+}
+.content-box3{
+    padding: 80px 0px;
+}
+.content-box4{
+    padding: 80px 0px;
+}
+.content-box5{
+    padding: 10px 0px;
+}
+span{
+    color: white;
+}
+.t-align{
+    text-align: center;
+}
+.col-4{
+    background-color: rgb(6, 106, 184);
+}.col-8{
+    background-color: rgb(77, 194, 10);
+}
+.col-9{
+    background-color: rgb(222, 55, 85);
+}
+.col-3{
+    background-color: rgb(6, 106, 184);
+}
+.col-12{
+    background-color: rgb(77, 194, 10);
+}

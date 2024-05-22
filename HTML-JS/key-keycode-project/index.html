@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="key">Press the key and watch magic</div>
+</body>
+<script>
+  document.addEventListener('keydown', function(e) {
+    let keyelement= document.querySelector('.key')
+    // keyelement.textContent= `you pressed the ${e.key} key with code ${e.keyCode}`;
+    keyelement.textContent = e.key === ' ' ? `You pressed the Space with code ${e.keyCode}` : `You pressed the ${e.key} key with code ${e.keyCode}`;
+  });
+
+</script>
+</html>

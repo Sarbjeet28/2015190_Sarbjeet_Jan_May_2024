@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- js connection
+    <script src= "js/js1.js "></script>
+     -->
+</head>
+<body>
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+      </div>
+    
+</body>
+<script>
+        const parent = document.querySelector('.parent')
+        console.log(parent);                          // select parent
+        console.log(parent.children);                 //target parent's children 
+        console.log(parent.children[1].innerText);    // children 1 text , tuesday
+        parent.children[1].style.color="blue"         //apply css, color property to children 1
+        parent.children[1].style.padding="10px"       //apply css, padding to children 1
+
+        console.log(parent.firstElementChild);        //select parent ,first child
+        console.log(parent.lastElementChild);         //select parent ,last child
+
+        // child to parent
+        const dayOne= document.querySelector('.day')        //target child class
+        console.log(dayOne.parentElement);                  //target child's , parent element
+        console.log(dayOne.nextElementSibling);             // next sibling element
+        console.log(parent.childNodes);                     //0/p- nodelist(9), it counts a newline in node list
+
+    
+</script>
+
+</html>

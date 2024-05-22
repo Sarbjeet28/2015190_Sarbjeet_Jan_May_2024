@@ -1,0 +1,20 @@
+.container{
+    background-color: lightgreen;
+    padding: 20px 40px;
+
+}
+.row{
+    background-color: rgb(91, 124, 234);
+    padding: 20px;
+
+}
+.content{
+    background-color: brown;
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+}
+span{
+    background-color: white;
+    padding: 10px;
+}

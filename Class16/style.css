@@ -1,0 +1,29 @@
+.p1{
+    height: 60px;
+    width: 500px;
+    border: 2px solid black;
+     position: absolute;
+     top: 50px;
+     left: 50px;
+     z-index:1;
+}
+.p2{
+    position: relative;
+    left: 200px;
+    top: 30px;
+    height: 80px;
+    width: 200px;
+    border: 2px solid lightgreen;
+    background-color: lightgreen;
+    z-index:2;
+}
+.p3{
+    position: relative;
+    left: 60px;
+    /* top: 0px; */
+    height: 50px;
+    width: 400px;
+    border: 2px solid lightgrey;
+    background-color: lightgrey;
+    z-index:3;
+}

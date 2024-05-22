@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class 20</title>
+        <style>
+            /* .box1 :first-child{
+                background-color: aqua;   
+            }
+            .box2 :first-child{
+                background-color: rgb(57, 24, 102);
+                color: white;   
+            }
+            .box1 :last-child{
+                background-color: rgb(255, 0, 234);   
+            }
+            .box2 :last-child{
+                background-color: rgb(125, 7, 23);
+                color: white;    */
+            /* } */
+            p:nth-child(2){
+                color: blue;
+            }
+            p:nth-child(2n){
+                background-color: lightpink;
+            }
+            p:only-child {
+                background-color:  red;
+            }
+            .box2 p:only-of-type{
+                background-color: cadetblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>hello world</p>
+        </div>
+        <div class="box1">
+            <p>This is a paragraph tag</p>
+            <p>This is a paragraph tag</p>
+            <p>This is a paragraph tag</p>
+            <p>This is a paragraph tag</p>
+        </div>
+        <div class="box2">
+            <p>This is a paragraph tag</p>
+            <h1>hello</h1>
+        </div>
+
+    </body>
+</html>

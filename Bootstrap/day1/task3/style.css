@@ -1,0 +1,18 @@
+.t-align{
+    text-align: center;
+}
+.content{
+    background-color: lightgreen;
+    padding: 10px 0px;
+}
+.content_r2{
+    background-color: rgb(233, 223, 30);
+    padding: 55px 0px;
+}
+.content9{
+    background-color: rgb(210, 55, 78);
+    padding: 80px 0px;
+}
+.m-tb{
+    margin: 5px 0px !important;
+}

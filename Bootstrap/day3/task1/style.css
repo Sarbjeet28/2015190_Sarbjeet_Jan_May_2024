@@ -1,0 +1,11 @@
+.t-align{
+    text-align: center;
+}
+.bg-sky{
+    background-color: skyblue;
+    color: white;
+}
+.content{
+    border: 1px solid yellow;
+    border-radius: 10px;
+}

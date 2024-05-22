@@ -1,0 +1,29 @@
+.t-align{
+    text-align: center;
+}
+.bg-blue{
+    background-color: #5353e5;
+    color: white;
+}
+.bg-sky{
+    background-color: skyblue;
+    color: darkblue;
+}
+b{
+    color: black;
+}
+.r3-c1{
+    background-color: lightgreen;
+}
+.r3-c2{
+    background-color: lightpink;
+}
+.r3-c3{
+    background-color: lightseagreen;
+}
+.r4-c1{
+    background-color: lightcoral;
+}
+.r4-c2{
+    background-color: lightsalmon;
+}

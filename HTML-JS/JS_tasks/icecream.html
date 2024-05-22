@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ice Cream steps</title>
+  <style>
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        background-image: url('images/icecream.webp');
+        background-size: cover;
+        font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <h1>Steps to make Ice Cream</h1>
+  <ul id="steps"></ul>
+  
+  <script>
+    let stocks = {
+      Fruits: ["Vanilla","Mango","strawberry", "grapes", "banana", "apple"],
+      liquid: ["water", "ice"],
+      holder: ["cone", "cup", "stick"],
+      toppings: ["dryfruits","chocolate", "peanuts"]
+    };
+
+    async function icecream(){
+      try {
+        await time(2000);
+        addToSteps(`${stocks.Fruits[0]} was selected`);
+
+        await time(1000);
+        addToSteps("Production has started");
+
+        await time(2000);
+        addToSteps("Fruit has been chopped");
+
+        await time(1000);
+        addToSteps(`${stocks.liquid[0]} and ${stocks.liquid[1]} added`);
+
+        await time(1000);
+        addToSteps("Start the machine");
+
+        await time(2000);
+        addToSteps(`Ice cream placed on ${stocks.holder[1]}`);
+
+        await time(3000);
+        addToSteps(`${stocks.toppings[0]} as toppings`);
+
+        await time(2000);
+        addToSteps("Serve Ice Cream");
+      } 
+      catch (error) {
+        addToSteps("Customer left");
+      }
+    }
+
+    async function time(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));     //function that resolves the promise, indicating that the time delay has passed.
+    }
+
+    function addToSteps(stepText) {
+      const stepElement = document.createElement('li');
+      stepElement.textContent = stepText;
+      document.getElementById('steps').appendChild(stepElement);
+    }
+
+    icecream();
+
+  </script>
+</body>
+</html>

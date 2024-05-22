@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    .img1{
+      width: 500px;
+      height: 200px;
+      margin: auto;
+      display: block;
+    }
+    span {
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      background-color: rgb(228, 173, 54);
+      border-radius: 5px;
+      font-size: 20px;
+    }
+    #countdown {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .container{
+      position: relative;
+    }
+    .content{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="images/thsss.jpeg" class="img1" alt="bg">
+    <div class="content">
+      <div id="countdown"></div>
+      <div id="labels">
+      <span class="countdown-label">Days</span>
+      <span class="countdown-label">Hours</span>
+      <span class="countdown-label">Minutes</span>
+      <span class="countdown-label">Seconds</span>
+      </div>
+    </div> 
+  </div>
+  
+
+  <script>
+
+     // Set the deadline date (year, month - 1, day, hour, minute, second)
+    
+     
+
+    function updateCountdown() {
+
+      const deadline = new Date(2024, 3, 30, 12, 0, 0).getTime();
+      const currentTime = new Date().getTime();
+      const remainingTime = deadline - currentTime;
+
+      // Calculate days, hours, minutes, and seconds
+      const days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
+
+      // Format the countdown timer with leading zeros
+      // const formattedDays = days.toString().padStart(2, '0');
+      // const formattedHours = hours.toString().padStart(2, '0');
+      // const formattedMinutes = minutes.toString().padStart(2, '0');
+      // const formattedSeconds = seconds.toString().padStart(2, '0');
+
+      const formattedDays = days < 10 ? '0' + days : days;
+      const formattedHours = hours < 10 ? '0' + hours : hours;
+      const formattedMinutes = minutes < 10 ? '0' + minutes : minutes;
+      const formattedSeconds = seconds < 10 ? '0' + seconds : seconds;
+
+      // Display the countdown timer
+      const countdownElement = document.getElementById('countdown');
+      countdownElement.textContent = ` ${formattedDays}:${formattedHours}:${formattedMinutes}:${formattedSeconds}`;
+    }
+
+    // Update the countdown timer every second
+    setInterval(updateCountdown, 1000);
+
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,10 @@
+.t-align{
+    text-align: center;
+}
+.content{
+    background-color: lightskyblue;
+    padding: 20px 0px;
+}
+.m-tb{
+    margin: 5px 0px !important;
+}

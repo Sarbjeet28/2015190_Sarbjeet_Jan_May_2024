@@ -1,0 +1,149 @@
+.s1{
+    width: 80%;
+    margin: auto;
+}
+.div1{
+    width: 60%;
+    float: left;
+    margin-top: 70px;
+    margin-bottom: 200px;
+}
+.div2{
+    width: 40%;
+    float: left;
+    margin-top: 70px;
+    margin-bottom: 200px;
+}
+.heading{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgb(48, 47, 47);
+    margin-bottom: 2px;
+}
+.p1{
+    font-family: sans-serif;
+    color: rgb(48, 47, 47);
+    /* text-align: left; */
+    line-height: 25px;
+}
+.img1{
+    height: 350px;
+    width: 450px;
+    display: block;
+    margin-left: 50px;
+}
+.hh1{
+    background-color: rgb(255, 48, 114);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    width: 25%;
+    padding: 15px;
+}
+.div3{
+    width: 40%;
+    float: left;
+    margin-bottom: 170px;
+}
+.div4{
+    width: 60%;
+    float: left;
+    margin-bottom: 170px;
+}
+.img2{
+    height: 450px;
+    width: 400px;
+    display: block;
+}
+.h1{
+    font-family: sans-serif;
+    color: rgb(255, 48, 114);
+    font-size: 25px;
+}
+.h2{
+    font-family: sans-serif;
+    color: rgb(48, 47, 47);
+    font-size: 30px;
+}
+.div5{
+    width: 50%;
+    float: left;
+    margin-bottom: 100px;
+}
+.div6{
+    width: 50%;
+    float: left;
+    margin-bottom: 100px;
+}
+.img3{
+    height: 470px;
+    width: 450px;
+    display: block;
+}
+.div7{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.h3{
+    font-family: sans-serif;
+    color: rgb(48, 47, 47);
+    font-size: 30px;
+    margin-top: 0px;
+}
+.img-container{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.img4{
+    width: 400px;
+    height: 200px;
+}
+.div8{
+    text-align: center;
+    margin-top: 70px;
+
+}
+.div9{
+    width: 35%;
+    float: left;
+    border: 10px solid rgb(255, 48, 114);
+    margin-top: 80px;
+    /* padding: 35px; */
+    text-align: center;
+    margin-bottom: 50px;
+}
+.div10{
+    width: 35%;
+    float: left;
+    border: 10px solid rgb(255, 48, 114);
+    margin-left: 220px;
+    margin-top: 80px;
+    /* padding: 35px; */
+    text-align: center;
+    margin-bottom: 50px;
+}
+.h-test{
+    font-family: sans-serif;
+    background-color: rgb(48, 47, 47);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 5px;
+    /* margin-left: 0px;
+    margin-right: 0px; */
+}
+span{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 5px;
+}
+.p2{
+    font-family: sans-serif;
+    color: rgb(48, 47, 47);
+    text-align: center;
+    line-height: 25px;
+}
+.clear{
+    clear: both;
+}

@@ -1,0 +1,22 @@
+.t-align{
+    text-align: center;
+}
+.container{
+    background-color: grey;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-sky{
+    background-color: skyblue;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+/* .content{
+    border: 1px solid yellow;
+    border-radius: 10px;
+} */

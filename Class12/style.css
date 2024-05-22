@@ -1,0 +1,23 @@
+h1{
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+}
+p{
+    border: 2px solid green;
+    height: 50px;
+    width: 50px;
+}
+a{
+    border: 2px solid palevioletred;
+    height: 50px;
+    width: 50px;
+    /* display: block; */
+    display: inline-block;
+}
+.d-none{
+    display: none;
+}
+.v-hide{
+    visibility: hidden;
+}

@@ -1,0 +1,31 @@
+.parent{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+    width: 140px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 20px;
+    float: left;
+}
+#grey{
+    background-color: grey;
+}
+#white{
+    background-color: white;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}

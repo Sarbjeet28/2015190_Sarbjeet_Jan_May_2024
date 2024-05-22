@@ -1,0 +1,25 @@
+h1{
+    color:darkred;
+    text-decoration: underline;
+    text-decoration-color: darkcyan;
+    text-decoration-style: wavy;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 7px yellow;
+}
+p{
+    color: midnightblue;
+    text-align: justify;
+    font-size: 20px;
+    font-family: cursive;
+    text-transform: capitalize;
+    text-indent: 70px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    word-spacing: 5x;
+    white-space: pre;  
+}
+span{
+    background-color:chartreuse;
+    font-size: 10px;
+    vertical-align: super;
+}

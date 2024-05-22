@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sec week assi 4</title>
+    </head>
+    <body>
+        <h1>Travel reservation form</h1>
+        <h2>* denotes mandotory</h2>
+        <form action="action.php">
+
+            <label>Full name*:</label><br>
+            <input type="text" placeholder="FirstName LastName" name="fname" required><br>
+            
+            <label>Email address*:</label><br>
+            <input type="email" placeholder="EMAIL_ADDRESS" name="email" required><br>
+            
+            <label>Select Tour Package*:</label><br>
+            <select required>
+                <option value="Goa">Goa</option>
+                <option value="Jaipur">Jaipur</option>
+                <option value="Switzerland">Switzerland</option>
+                <option value="Dubai">Dubai</option>
+            </select><br>
+
+            <label>Arrival date*:</label><br>
+            <input type="date" placeholder="m/d/y" name="arrivaldate" required><br>
+
+            <label>Number of persons*:</label><br>
+            <input type="number" placeholder="UNKNOWN_TYPE" name="person" required><br>
+            
+            <label>What would you want to avail?*</label><br>
+            <input type="checkbox" value="boarding" name="avail" required>
+            <label>Boarding</label><br>
+            <input type="checkbox" value="fooding" name="avail">
+            <label>Fooding</label><br>
+            <input type="checkbox" value="sight_seeing" name="avail">
+            <label>Sight seeing</label><br>
+
+            <label>Discount Coupon code:</label><br>
+            <input type="text" placeholder="UNKNOWN_TYPE" name="discount"><br>
+            
+            <label>Terms and conditions*</label><br>
+            <input type="radio" value="agree" name="terms">
+            <label>I agree</label>
+            <input type="radio" value="disagree" name="terms">
+            <label>I disagree</label><br>
+            
+            <input type="submit" value="Complete reservation">
+        </form>
+    </body>
+</html>
+ 

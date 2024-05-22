@@ -1,0 +1,69 @@
+.parent{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.box1{
+    width: 350px;
+    height: 250px;
+    background-color: blueviolet;
+    float: left;
+}
+.box2{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(154, 216, 19);
+    float: left;
+}
+.box3{
+    width: 350px;
+    height: 250px;
+    background-color: blueviolet;
+    float: left;
+}
+.box4{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(154, 216, 19);
+    float: left;
+}
+.box5{
+    width: 350px;
+    height: 250px;
+    background-color: blueviolet;
+    float: left;
+}
+.box6{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(154, 216, 19);
+    float: left;
+}
+.box7{
+    width: 350px;
+    height: 250px;
+    background-color: blueviolet;
+    float: left;
+}
+.box8{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(154, 216, 19);
+    float: left;
+}
+.box-white{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(252, 252, 252);
+    border:  1px solid rgb(197, 196, 196);
+    float: left;
+}
+.box3:first-child{
+    color: yellow;
+}
+.box7:first-child{
+    color: yellow;
+}
+.parent:last-child{
+    color: green;
+}
